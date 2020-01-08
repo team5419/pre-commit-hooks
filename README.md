@@ -4,11 +4,9 @@ Our custom pre-commit hooks
 ## Example
 ```yaml
 repos:
--   repo: https://github.com/team5499/pre-commit-hooks
+-   repo: https://github.com/team5419/pre-commit-hooks
     rev: v0.3.1
     hooks:
-    -   id: ktlint-wrapper
-        args: [--color, --format, --relative, --verbose]
     -   id: detekt-wrapper
         args: [--config .detekt-config.yml]
 ```
